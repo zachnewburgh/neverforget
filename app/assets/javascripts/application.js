@@ -25,7 +25,7 @@ var player7;
 var player8;
 var player9;
 
-function onYouTubeIframeAPIReady() {
+var onYouTubeIframeAPIReady = function() {
   player1 = new YT.Player('player1', {events: {'onReady': onPlayerReady}});
   player2 = new YT.Player('player2', {events: {'onReady': onPlayerReady}});
   player3 = new YT.Player('player3', {events: {'onReady': onPlayerReady}});
@@ -37,7 +37,7 @@ function onYouTubeIframeAPIReady() {
   player9 = new YT.Player('player9', {events: {'onReady': onPlayerReady}});
 };
 
-function onPlayerReady() {
+var onPlayerReady = function() {
   player1.mute();
   player2.mute();
   player3.mute();
@@ -59,10 +59,10 @@ function onPlayerReady() {
   player9.playVideo();
 }
 
-function showDiv(divId) {
+var showDiv = function(divId) {
  document.getElementById(divId).style.display = "block";
 }
 
-function hideDiv(divId) {
+var hideDiv = function(divId) {
  document.getElementById(divId).style.display = "none";
 }
