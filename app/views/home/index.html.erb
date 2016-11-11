@@ -1,31 +1,91 @@
 <div class="container">
-  <div class="video">
+  <div class="video" onmouseover="player1.unMute(); showDiv('player1-info');" onmouseout="player1.mute(); hideDiv('player1-info');">
     <iframe id='player1' src="https://www.youtube.com/embed/hXuVxFLGpFM?controls=0&showinfo=0&rel=0&disablekb=1&loop=1&playlist=hXuVxFLGpFM&enablejsapi=1&version=3" frameborder="0" allowfullscreen"></iframe>
   </div>
-  <div class="video">
-    <iframe id='player2' src="https://www.youtube.com/embed/hXuVxFLGpFM?controls=0&showinfo=0&rel=0&disablekb=1&loop=1&playlist=hXuVxFLGpFM&enablejsapi=1&version=3" frameborder="0" allowfullscreen"></iframe>
-  </div>
-  <div class="video">
-    <iframe id='player3' src="https://www.youtube.com/embed/hXuVxFLGpFM?controls=0&showinfo=0&rel=0&disablekb=1&loop=1&playlist=hXuVxFLGpFM&enablejsapi=1&version=3" frameborder="0" allowfullscreen"></iframe>
+
+  <div class="video" onmouseover="player2.unMute(); showDiv('player2-info');" onmouseout="player2.mute(); hideDiv('player2-info');">
+    <iframe id='player2' src="https://www.youtube.com/embed/xpG3jLGGkvc?controls=0&showinfo=0&rel=0&disablekb=1&loop=1&playlist=xpG3jLGGkvc&enablejsapi=1&version=3" frameborder="0" allowfullscreen"></iframe>
   </div>
 
-  <div class="video">
+  <div class="video" onmouseover="player3.unMute(); showDiv('player3-info');" onmouseout="player3.mute(); hideDiv('player3-info');">
+    <iframe id='player3' src="https://www.youtube.com/embed/w9MTjN8maPM?controls=0&showinfo=0&rel=0&disablekb=1&loop=1&playlist=w9MTjN8maPM&enablejsapi=1&version=3" frameborder="0" allowfullscreen"></iframe>
+  </div>
+
+  <div id="player1-info" style="display: none; border-radius: 1px; color: white; width: 100%; padding: 1% 2.5% 1% 2.5%; font-family: 'Proza Libre'">
+    <h2>Mustafa al-Rahman <span style="margin: 10px; font-size: 16px;">Damascus, Syria | 14 years-old</span></h2>
+    <p>"I used to wonder what Germany would be like. How would they receive us. Where would we go and what would happen to us? My father is in Iraq, my sisters are stilli n Syria. Why did we get separated?"</p>
+    <p>Donate | Volunteer | Learn | Contact Us</p>
+  </div>
+
+  <div id="player2-info" style="display: none; border-radius: 1px; color: white; width: 100%; padding: 1% 2.5% 1% 2.5%; font-family: 'Proza Libre'">
+    <h2>Aya Saif Hosseini <span style="margin: 10px; font-size: 16px;">Aleppo, Syria | 8 years-old</span></h2>
+    <p>"They began to bomb our house. We couldn't stay any longer. We were crying a lot. Afterwards, we came here. I want to be a doctor so I can help children. If they come to see me and they don't have money, I will give them medicine, a prescription, and help so they can get better."</p>
+    <p>Donate | Volunteer | Learn | Contact Us</p>
+  </div>
+
+  <div id="player3-info" style="display: none; border-radius: 1px; color: white; width: 100%; padding: 1% 2.5% 1% 2.5%; font-family: 'Proza Libre'">
+    <h2>Safa Abd-el-Malik <span style="margin: 10px; font-size: 16px;">Hama, Syria | 10 years-old</span></h2>
+    <p>"Four years have passed since the children here left Syria. They have not seen their relatives. The ones responsible are politicians. I want to tell politicians to stop this game so we can go back to our country so that children who lost their parents can have a future. So that we can also have a future."</p>
+    <p>Donate | Volunteer | Learn | Contact Us</p>
+  </div>
+
+  <div class="video" onmouseover="player4.unMute(); showDiv('player4-info');" onmouseout="player4.mute(); hideDiv('player4-info');">
     <iframe id='player4' src="https://www.youtube.com/embed/hXuVxFLGpFM?controls=0&showinfo=0&rel=0&disablekb=1&loop=1&playlist=hXuVxFLGpFM&enablejsapi=1&version=3" frameborder="0" allowfullscreen"></iframe>
   </div>
-  <div class="video">
-    <iframe id='player5' src="https://www.youtube.com/embed/hXuVxFLGpFM?controls=0&showinfo=0&rel=0&disablekb=1&loop=1&playlist=hXuVxFLGpFM&enablejsapi=1&version=3" frameborder="0" allowfullscreen"></iframe>
-  </div>
-  <div class="video">
-    <iframe id='player6' src="https://www.youtube.com/embed/hXuVxFLGpFM?controls=0&showinfo=0&rel=0&disablekb=1&loop=1&playlist=hXuVxFLGpFM&enablejsapi=1&version=3" frameborder="0" allowfullscreen"></iframe>
+
+  <div class="video" onmouseover="player5.unMute(); showDiv('player5-info');" onmouseout="player5.mute(); hideDiv('player5-info');">
+    <iframe id='player5' src="https://www.youtube.com/embed/xpG3jLGGkvc?controls=0&showinfo=0&rel=0&disablekb=1&loop=1&playlist=xpG3jLGGkvc&enablejsapi=1&version=3" frameborder="0" allowfullscreen"></iframe>
   </div>
 
-  <div class="video">
+  <div class="video" onmouseover="player6.unMute(); showDiv('player6-info');" onmouseout="player6.mute(); hideDiv('player6-info');">
+    <iframe id='player6' src="https://www.youtube.com/embed/w9MTjN8maPM?controls=0&showinfo=0&rel=0&disablekb=1&loop=1&playlist=w9MTjN8maPM&enablejsapi=1&version=3" frameborder="0" allowfullscreen"></iframe>
+  </div>
+
+  <div id="player4-info" style="display: none; border-radius: 1px; color: white; width: 100%; padding: 1% 2.5% 1% 2.5%; font-family: 'Proza Libre'">
+    <h2>Mustafa al-Rahman <span style="margin: 10px; font-size: 16px;">Damascus, Syria | 14 years-old</span></h2>
+    <p>"I used to wonder what Germany would be like. How would they receive us. Where would we go and what would happen to us? My father is in Iraq, my sisters are stilli n Syria. Why did we get separated?"</p>
+    <p>Donate | Volunteer | Learn | Contact Us</p>
+  </div>
+
+  <div id="player5-info" style="display: none; border-radius: 1px; color: white; width: 100%; padding: 1% 2.5% 1% 2.5%; font-family: 'Proza Libre'">
+    <h2>Aya Saif Hosseini <span style="margin: 10px; font-size: 16px;">Aleppo, Syria | 8 years-old</span></h2>
+    <p>"They began to bomb our house. We couldn't stay any longer. We were crying a lot. Afterwards, we came here. I want to be a doctor so I can help children. If they come to see me and they don't have money, I will give them medicine, a prescription, and help so they can get better."</p>
+    <p>Donate | Volunteer | Learn | Contact Us</p>
+  </div>
+
+  <div id="player6-info" style="display: none; border-radius: 1px; color: white; width: 100%; padding: 1% 2.5% 1% 2.5%; font-family: 'Proza Libre'">
+    <h2>Safa Abd-el-Malik <span style="margin: 10px; font-size: 16px;">Hama, Syria | 10 years-old</span></h2>
+    <p>"Four years have passed since the children here left Syria. They have not seen their relatives. The ones responsible are politicians. I want to tell politicians to stop this game so we can go back to our country so that children who lost their parents can have a future. So that we can also have a future."</p>
+    <p>Donate | Volunteer | Learn | Contact Us</p>
+  </div>
+
+  <div class="video" onmouseover="player7.unMute(); showDiv('player7-info');" onmouseout="player7.mute(); hideDiv('player7-info');">
     <iframe id='player7' src="https://www.youtube.com/embed/hXuVxFLGpFM?controls=0&showinfo=0&rel=0&disablekb=1&loop=1&playlist=hXuVxFLGpFM&enablejsapi=1&version=3" frameborder="0" allowfullscreen"></iframe>
   </div>
-  <div class="video">
-    <iframe id='player8' src="https://www.youtube.com/embed/hXuVxFLGpFM?controls=0&showinfo=0&rel=0&disablekb=1&loop=1&playlist=hXuVxFLGpFM&enablejsapi=1&version=3" frameborder="0" allowfullscreen"></iframe>
+
+  <div class="video" onmouseover="player8.unMute(); showDiv('player8-info');;" onmouseout="player8.mute(); hideDiv('player8-info');">
+    <iframe id='player8' src="https://www.youtube.com/embed/xpG3jLGGkvc?controls=0&showinfo=0&rel=0&disablekb=1&loop=1&playlist=xpG3jLGGkvc&enablejsapi=1&version=3" frameborder="0" allowfullscreen"></iframe>
   </div>
-  <div class="video">
-    <iframe id='player9' src="https://www.youtube.com/embed/hXuVxFLGpFM?controls=0&showinfo=0&rel=0&disablekb=1&loop=1&playlist=hXuVxFLGpFM&enablejsapi=1&version=3" frameborder="0" allowfullscreen"></iframe>
+
+  <div class="video" onmouseover="player9.unMute(); showDiv('player9-info');;" onmouseout="player9.mute(); hideDiv('player9-info');">
+    <iframe id='player9' src="https://www.youtube.com/embed/w9MTjN8maPM?controls=0&showinfo=0&rel=0&disablekb=1&loop=1&playlist=w9MTjN8maPM&enablejsapi=1&version=3" frameborder="0" allowfullscreen"></iframe>
+  </div>
+
+  <div id="player7-info" style="display: none; border-radius: 1px; color: white; width: 100%; padding: 1% 2.5% 1% 2.5%; font-family: 'Proza Libre'">
+    <h2>Mustafa al-Rahman <span style="margin: 10px; font-size: 16px;">Damascus, Syria | 14 years-old</span></h2>
+    <p>"I used to wonder what Germany would be like. How would they receive us. Where would we go and what would happen to us? My father is in Iraq, my sisters are stilli n Syria. Why did we get separated?"</p>
+    <p>Donate | Volunteer | Learn | Contact Us</p>
+  </div>
+
+  <div id="player8-info" style="display: none; border-radius: 1px; color: white; width: 100%; padding: 1% 2.5% 1% 2.5%; font-family: 'Proza Libre'">
+    <h2>Aya Saif Hosseini <span style="margin: 10px; font-size: 16px;">Aleppo, Syria | 8 years-old</span></h2>
+    <p>"They began to bomb our house. We couldn't stay any longer. We were crying a lot. Afterwards, we came here. I want to be a doctor so I can help children. If they come to see me and they don't have money, I will give them medicine, a prescription, and help so they can get better."</p>
+    <p>Donate | Volunteer | Learn | Contact Us</p>
+  </div>
+
+  <div id="player9-info" style="display: none; border-radius: 1px; color: white; width: 100%; padding: 1% 2.5% 1% 2.5%; font-family: 'Proza Libre'">
+    <h2>Safa Abd-el-Malik <span style="margin: 10px; font-size: 16px;">Hama, Syria | 10 years-old</span></h2>
+    <p>"Four years have passed since the children here left Syria. They have not seen their relatives. The ones responsible are politicians. I want to tell politicians to stop this game so we can go back to our country so that children who lost their parents can have a future. So that we can also have a future."</p>
+    <p>Donate | Volunteer | Learn | Contact Us</p>
   </div>
 </div>
