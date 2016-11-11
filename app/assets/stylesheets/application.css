@@ -17,3 +17,455 @@
 body {
   margin: 0;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background: #000;
+}
+
+.video {
+  flex: 1;
+  display: inline-flex;
+  min-width: 100%;
+}
+
+iframe {
+  width: 100%;
+  pointer-events: none;
+}
+
+@media only screen and (min-width: 300px) {
+  iframe {
+    min-height: 168px;
+  }
+}
+
+@media only screen and (min-width: 325px) {
+  iframe {
+    min-height: 180px;
+  }
+}
+
+@media only screen and (min-width: 350px) {
+  iframe {
+    min-height: 195px;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  iframe {
+    min-height: 210px;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  iframe {
+    min-height: 220px;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  iframe {
+    min-height: 235px;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  iframe {
+    min-height: 250px;
+  }
+}
+
+@media only screen and (min-width: 475px) {
+  iframe {
+    min-height: 265px;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  iframe {
+    min-height: 280px;
+  }
+}
+
+@media only screen and (min-width: 525px) {
+  iframe {
+    min-height: 295px;
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  iframe {
+    min-height: 310px;
+  }
+}
+
+@media only screen and (min-width: 575px) {
+  iframe {
+    min-height: 325px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  iframe {
+    min-height: 165px;
+  }
+
+  .video {
+    min-width: 50%;
+  }
+}
+
+@media only screen and (min-width: 625px) {
+  iframe {
+    min-height: 172px;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  iframe {
+    min-height: 179px;
+  }
+}
+
+@media only screen and (min-width: 675px) {
+  iframe {
+    min-height: 186px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  iframe {
+    min-height: 193px;
+  }
+}
+
+@media only screen and (min-width: 725px) {
+  iframe {
+    min-height: 200px;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  iframe {
+    min-height: 207px;
+  }
+}
+
+@media only screen and (min-width: 775px) {
+  iframe {
+    min-height: 214px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  iframe {
+    min-height: 221px;
+  }
+}
+
+@media only screen and (min-width: 825px) {
+  iframe {
+    min-height: 228px;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  iframe {
+    min-height: 235px;
+  }
+}
+
+@media only screen and (min-width: 875px) {
+  iframe {
+    min-height: 242px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  iframe {
+    min-height: 249px;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  iframe {
+    min-height: 256px;
+  }
+}
+
+@media only screen and (min-width: 975px) {
+  iframe {
+    min-height: 263px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  iframe {
+    min-height: 270px;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  iframe {
+    min-height: 277px;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  iframe {
+    min-height: 284px;
+  }
+}
+
+@media only screen and (min-width: 1075px) {
+  iframe {
+    min-height: 291px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  iframe {
+    min-height: 298px;
+  }
+}
+
+@media only screen and (min-width: 1125px) {
+  iframe {
+    min-height: 305px;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+  iframe {
+    min-height: 312px;
+  }
+}
+
+@media only screen and (min-width: 1175px) {
+  iframe {
+    min-height: 215px;
+  }
+
+  .video {
+    min-width: 33%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  iframe {
+    min-height: 220px;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  iframe {
+    min-height: 230px;
+  }
+}
+
+@media only screen and (min-width: 1275px) {
+  iframe {
+    min-height: 235px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  iframe {
+    min-height: 240px;
+  }
+}
+
+@media only screen and (min-width: 1325px) {
+  iframe {
+    min-height: 245px;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  iframe {
+    min-height: 250px;
+  }
+}
+
+@media only screen and (min-width: 1375px) {
+  iframe {
+    min-height: 255px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  iframe {
+    min-height: 260px;
+  }
+}
+
+@media only screen and (min-width: 1425px) {
+  iframe {
+    min-height: 265px;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  iframe {
+    min-height: 270px;
+  }
+}
+
+@media only screen and (min-width: 1475px) {
+  iframe {
+    min-height: 275px;
+  }
+}
+
+
+@media only screen and (min-width: 1500px) {
+  iframe {
+    min-height: 280px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  iframe {
+    min-height: 285px;
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  iframe {
+    min-height: 290px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  iframe {
+    min-height: 300px;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  iframe {
+    min-height: 310px;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  iframe {
+    min-height: 319px;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  iframe {
+    min-height: 328px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  iframe {
+    min-height: 337px;
+  }
+}
+
+@media only screen and (min-width: 1850px) {
+  iframe {
+    min-height: 346px;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  iframe {
+    min-height: 355px;
+  }
+}
+
+@media only screen and (min-width: 1950px) {
+  iframe {
+    min-height: 364px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  iframe {
+    min-height: 373px;
+  }
+}
+
+@media only screen and (min-width: 2050px) {
+  iframe {
+    min-height: 381px;
+  }
+}
+
+@media only screen and (min-width: 2100px) {
+  iframe {
+    min-height: 390px;
+  }
+}
+
+@media only screen and (min-width: 2150px) {
+  iframe {
+    min-height: 398px;
+  }
+}
+
+@media only screen and (min-width: 2200px) {
+  iframe {
+    min-height: 407px;
+  }
+}
+
+@media only screen and (min-width: 2250px) {
+  iframe {
+    min-height: 416px;
+  }
+}
+
+@media only screen and (min-width: 2300px) {
+  iframe {
+    min-height: 425px;
+  }
+}
+
+@media only screen and (min-width: 2350px) {
+  iframe {
+    min-height: 434px;
+  }
+}
+
+@media only screen and (min-width: 2400px) {
+  iframe {
+    min-height: 443px;
+  }
+}
+
+@media only screen and (min-width: 2450px) {
+  iframe {
+    min-height: 452px;
+  }
+}
+
+@media only screen and (min-width: 2500px) {
+  iframe {
+    min-height: 461px;
+  }
+}
+
+@media only screen and (min-width: 2550px) {
+  iframe {
+    min-height: 470px;
+  }
+}
+
+@media only screen and (min-width: 2600px) {
+  iframe {
+    min-height: 479px;
+  }
+}
+
+@media only screen and (min-width: 2650px) {
+  iframe {
+    min-height: 488px;
+  }
+}
