@@ -29,6 +29,16 @@ body {
   display: inline-flex;
   min-width: 100%;
 }
+/*
+#player1-info {
+  color: white; 
+  position: absolute; 
+  top: 31%; left: 0; 
+  background: black; 
+  width: 33.3%; 
+  display: none;
+}*/
+
 
 iframe {
   width: 100%;
