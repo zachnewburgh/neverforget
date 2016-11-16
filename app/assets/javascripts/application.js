@@ -58,11 +58,3 @@ var onPlayerReady = function() {
   // player8.playVideo();
   // player9.playVideo();
 }
-
-var showDiv = function(divId) {
- document.getElementById(divId).style.display = "block";
-}
-
-var hideDiv = function(divId) {
- document.getElementById(divId).style.display = "none";
-}
