@@ -48,15 +48,15 @@ var onPlayerReady = function() {
   player8.mute();
   player9.mute();
 
-  player1.playVideo();
-  player2.playVideo();
-  player3.playVideo();
-  player4.playVideo();
-  player5.playVideo();
-  player6.playVideo();
-  player7.playVideo();
-  player8.playVideo();
-  player9.playVideo();
+  // player1.playVideo();
+  // player2.playVideo();
+  // player3.playVideo();
+  // player4.playVideo();
+  // player5.playVideo();
+  // player6.playVideo();
+  // player7.playVideo();
+  // player8.playVideo();
+  // player9.playVideo();
 }
 
 var showDiv = function(divId) {
