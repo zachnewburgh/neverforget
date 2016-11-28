@@ -14,7 +14,7 @@
  *= require_self
  */
 
-* {
+/** {
   font-family: 'Montserrat';
 }
 body {
@@ -481,4 +481,49 @@ iframe {
   iframe {
     min-height: 488px;
   }
+}*/
+
+html, body {
+  margin: 0;
 }
+
+main {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-wrap: wrap;
+  /*-webkit-flex-wrap: wrap;*/
+  text-align: center;
+}
+
+div {
+  flex: 1;
+  -webkit-flex: 1 0 33.3%;
+  min-width: 33.3vw;
+  min-height: 33.3vh;
+}
+
+@media screen and (max-width: 1125px) {
+  div {
+    min-width: 50vw;
+  }
+}
+
+@media screen and (max-width: 740px) {
+ main {
+  flex-direction: column;
+ }
+}/*
+
+.darkblue {
+  background-color: black;
+}
+
+.darkred {
+  background-color: black;
+}
+
+.darkgreen {
+  background-color: black;
+}*/
