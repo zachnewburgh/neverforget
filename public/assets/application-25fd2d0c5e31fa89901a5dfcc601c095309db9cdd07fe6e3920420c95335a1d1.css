@@ -1,0 +1,49 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+html, body {
+  margin: 0;
+  background-color: black;
+}
+
+main {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+div {
+  flex: 1;
+  -webkit-flex: 1 0 33.3%;
+  min-width: 33.3vw;
+  min-height: 33.3vh;
+}
+
+@media screen and (max-width: 1125px) {
+  div {
+    min-width: 50vw;
+  }
+}
+
+@media screen and (max-width: 740px) {
+ main {
+  flex-direction: column;
+ }
+}
