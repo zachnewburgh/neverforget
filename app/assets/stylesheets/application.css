@@ -16,6 +16,7 @@
 
 html, body {
   margin: 0;
+  background-color: black;
 }
 
 main {
@@ -32,7 +33,6 @@ div {
   -webkit-flex: 1 0 33.3%;
   min-width: 33.3vw;
   min-height: 33.3vh;
-  background-color: black;
 }
 
 @media screen and (max-width: 1125px) {
